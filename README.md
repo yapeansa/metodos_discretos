@@ -5,12 +5,16 @@
 **a)** Inicialmente vamos encontrar os polinômios de Taylor para a função $f(x) = \sqrt{x}$ em torno do ponto $a = 1$. Para tanto, precisamos de suas derivadas de primeira e segunda ordens. Assim, $f'(x) = \dfrac{-1}{2\,\sqrt{x}}$ e $f''(x) = \dfrac{1}{4\,\sqrt{x^{3}}}$. Desta forma, o polinômio de Taylor linear em torno do ponto $a = 1$ da função $f$ é dado por:
 $$ P_{1}(x) = 1 - \frac{1}{2}\,(x - 1) = \frac{1}{2}\,(3 - x). $$
 Agora, o polinômio quadrático é dado pela seguinte expressão:
+
 $$ P_{2}(x) = 1 - \frac{1}{2}\,(x - 1) + \frac{1}{4}\,\frac{(x - 1)^{2}}{2!}. $$
 
 **b)** Vamos agora determinar os polinômios de Taylor para a função $f(x) = \sin(x)$ em torno do ponto $a = \dfrac{\pi}{4}$. Precisamos das derivadas da função $f$ de primeira e segunda ordens. Assim, $f'(x) = \cos(x)$ e $f''(x) = -\sin(x)$. Diante disso, o polinômio de Taylor linear é dado pela seguinte expressão:
+
 $$ P_{1}(x) = \frac{\sqrt{2}}{2} + \frac{\sqrt{2}}{2}\,\left(x - \frac{\pi}{4}\right). $$
+
 Já o polinômio quadrático é dado pela seguinte expressão:
-$$ P_{2}(x) = \frac{\sqrt{2}}{2} + \frac{\sqrt{2}}{2}\,\left(x - \frac{\pi}{4}\right) - \frac{\sqrt{2}}{2}\,\frac{1}{2!}\,\left(x - \frac{\pi}{4}\right)^{2}. $$
+
+$$ P_{2}(x) = \frac{\sqrt{2}}{2} + \frac{\sqrt{2}}{2}\,\left(x - \frac{\pi}{4}\right) - \frac{\sqrt{2}}{2}\,\frac{1}{2!}\,\left(x - \frac{\pi}{4}\right)^{2}.$$
 
 <h3>2) Segunda Questão</h3>
 
