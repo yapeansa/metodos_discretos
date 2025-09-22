@@ -71,4 +71,18 @@ Na tabela a seguir, observa-se que os pontos nos quaos é possível fazer o cál
 
 <h3>1) Primeira Questão</h3>
 
-...dsdsds
+Vamos começar demonstrando o método de Euler explícito para a solução de problemas de valor inicial da forma $u'(t) = f(t, u)$ sujeita à condição $u(0) = u_{0}$.
+
+Expandindo a função $u$ em série de Taylor em torno de um ponto $t_{n}$, temos:
+
+$$ u(t) = u(t_{n}) + u'(t_{n})\,(t - t_{n}) + \frac{u''(t_{n})}{2!}\,(t - t_{n})^{2} + \ldots $$
+
+Avaliando em $t = t_{n+1}$, segue que:
+
+$$ u(t_{n+1}) = u(t_{n}) + u'(t_{n})\,(t_{n+1} - t_{n}) + \frac{u''(t_{n})}{2!}\,(t_{n+1} - t_{n})^{2} + \ldots $$
+
+Agora desprezando os termos após a segunda derivada e considerando que $h = t_{n+1} - t_{n}$ e $u'(t) = f(t, u)$, temos:
+
+$$ u(t_{n+1}) \approx u(t_{n}) + h\,f(t_{n}, u_{n}) $$
+
+Logo, o método de Euler **explícito** é dado por $u_{n+1} = u_{n} + h\,f(t_{n}, u_{n})$. 
