@@ -25,7 +25,7 @@ Line(6) = {6, 7};
 Line(7) = {7, 8};
 Line(8) = {8, 5};
 
-// Create a line loop for the outer boundary and a line loop for the inner boundary
+// loop para a fronteira exterior e para a fronteira interior
 Curve Loop(1) = {1, 2, 3, 4};
 Curve Loop(2) = {5, 6, 7, 8};
 
